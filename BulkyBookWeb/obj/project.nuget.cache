@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wyHcRhGK3WsjloUTAjl3SmWV9oEh2P84X1+gZrtQc0xvCb/y9iSSBBBvQ5rXZFMHCXG8+e8TJvdw5d39bswwPQ==",
+  "dgSpecHash": "wt7NUpeiLbQmDZOBdX/NufctuzM8nuFw05k4FlnMtxcJ0Vk6PBSmO6vt+8UOTJWEIPqxS6jWV8bvBiXSssbzvA==",
   "success": true,
-  "projectFilePath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+  "projectFilePath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Perry Shop\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Perry Shop\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -141,6 +141,7 @@
     "C:\\Users\\Perry Shop\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Perry Shop\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Perry Shop\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\Perry Shop\\.nuget\\packages\\stripe.net\\41.6.0\\stripe.net.41.6.0.nupkg.sha512",
     "C:\\Users\\Perry Shop\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Perry Shop\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Perry Shop\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

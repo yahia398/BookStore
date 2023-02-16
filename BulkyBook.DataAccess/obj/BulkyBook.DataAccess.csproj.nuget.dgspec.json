@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {}
+    "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {}
   },
   "projects": {
-    "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+    "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+        "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
         "projectName": "BulkyBook.DataAccess",
-        "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+        "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Perry Shop\\.nuget\\packages\\",
-        "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.DataAccess\\obj\\",
+        "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Perry Shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
-                "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj"
+              "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+                "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj"
               }
             }
           }
@@ -79,18 +79,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+    "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj",
         "projectName": "BulkyBook.Models",
-        "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj",
         "packagesPath": "C:\\Users\\Perry Shop\\.nuget\\packages\\",
-        "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Models\\obj\\",
+        "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Perry Shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

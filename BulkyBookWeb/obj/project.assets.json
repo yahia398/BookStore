@@ -2844,6 +2844,23 @@
           }
         }
       },
+      "Stripe.net/41.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8150,6 +8167,29 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+    "Stripe.net/41.6.0": {
+      "sha512": "ecYpgJajdoZxHoHxmzqCdkMe10N4uuHb5kVImHpdCcpvpgjs8pfm0X9p16alVebQpOClfF1/0FfiFdsdlk0Mfg==",
+      "type": "package",
+      "path": "stripe.net/41.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/net6.0/Stripe.net.dll",
+        "lib/net6.0/Stripe.net.xml",
+        "lib/netcoreapp3.1/Stripe.net.dll",
+        "lib/netcoreapp3.1/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.41.6.0.nupkg.sha512",
+        "stripe.net.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -12268,7 +12308,8 @@
       "Microsoft.AspNetCore.Identity.UI >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.3",
+      "Stripe.net >= 41.6.0"
     ]
   },
   "packageFolders": {
@@ -12277,11 +12318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+      "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
       "projectName": "BulkyBookWeb",
-      "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+      "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
       "packagesPath": "C:\\Users\\Perry Shop\\.nuget\\packages\\",
-      "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBookWeb\\obj\\",
+      "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Perry Shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12298,11 +12339,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
-              "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
+            "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+              "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
             },
-            "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
-              "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
+            "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
             }
           }
         }
@@ -12338,6 +12379,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.3, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[41.6.0, )"
           }
         },
         "imports": [
@@ -12359,7 +12404,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

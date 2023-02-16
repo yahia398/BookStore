@@ -762,11 +762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+      "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
       "projectName": "BulkyBook.Utility",
-      "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+      "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
       "packagesPath": "C:\\Users\\Perry Shop\\.nuget\\packages\\",
-      "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook.Utility\\obj\\",
+      "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBook.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Perry Shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -816,7 +816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

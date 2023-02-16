@@ -10,3 +10,15 @@ G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBoo
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\refint\BulkyBook.Utility.dll
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.pdb
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\ref\BulkyBook.Utility.dll
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\bin\Debug\net7.0\BulkyBook.Utility.deps.json
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\bin\Debug\net7.0\BulkyBook.Utility.dll
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\bin\Debug\net7.0\BulkyBook.Utility.pdb
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.csproj.AssemblyReference.cache
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.AssemblyInfoInputs.cache
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.AssemblyInfo.cs
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.csproj.CoreCompileInputs.cache
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.dll
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\refint\BulkyBook.Utility.dll
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\BulkyBook.Utility.pdb
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.Utility\obj\Debug\net7.0\ref\BulkyBook.Utility.dll
