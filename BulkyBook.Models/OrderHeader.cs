@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Models
 {
+	// that is used to save all imortant information about the order itself
 	public class OrderHeader
 	{
 		public int Id { get; set; }
@@ -29,6 +30,7 @@ namespace BulkyBook.Models
 		public string? SessionId { get; set; }
 		public string? PaymentIntentId { get; set; }
 		[Required]
+		[Phone]
 		public string PhoneNumber { get; set; }
 		[Required]
 		public string StreetAddress { get; set; }

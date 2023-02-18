@@ -19,17 +19,17 @@ namespace BulkyBook.Utility
 
 
 		// Order Status
-		public const string StatusPending = "Pending";                // After the order has been created
+		public const string OrderStatusPending = "Pending";       // After the order has been created
 
-		public const string StatusApproved = "Approved";              // After approving the customer order
+		public const string OrderStatusApproved = "Approved";     // After approving the customer order
 
-		public const string StatusInProcess = "Processing";           // When the order is processing
+		public const string OrderStatusInProcess = "Processing";  // When the order is processing
 
-		public const string StatusShipped = "Shipped";                // When the order shipped
+		public const string OrderStatusShipped = "Shipped";       // When the order shipped
 
-		public const string StatusCancelled = "Cancelled";            // The Order is cancelled
+		public const string OrderStatusCancelled = "Cancelled";   // The Order is cancelled
 
-		public const string StatusRefunded = "Refunded";              // The order is refunded
+		public const string OrderStatusRefunded = "Refunded";     // The order is refunded
 
 
 		// Payment Status

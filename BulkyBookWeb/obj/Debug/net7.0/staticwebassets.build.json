@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7SZmfymAlpoudemB4MJutjg5AqNuPZoY4cKZXQ0181o=",
+  "Hash": "V8YnfLvGcI9CTxWB/RanDeUe/R07B+qCKMJIH19fjvk=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -1122,6 +1122,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\png-transparent-e-commerce-online-shopping-ui-money-success-payment-basic-e-commerce-line-color-icon.png",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/png-transparent-e-commerce-online-shopping-ui-money-success-payment-basic-e-commerce-line-color-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\png-transparent-e-commerce-online-shopping-ui-money-success-payment-basic-e-commerce-line-color-icon.png"
+    },
+    {
       "Identity": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\00a2d920-7a07-4e35-98bc-369ae962dc9c.jpg",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Discovered",
@@ -1188,6 +1205,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\517ef25d-dbcc-4272-b7a2-f0b682b78911.jpg"
+    },
+    {
+      "Identity": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\52e5f14b-c898-442e-b65e-181739ae1c74.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/52e5f14b-c898-442e-b65e-181739ae1c74.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\52e5f14b-c898-442e-b65e-181739ae1c74.jpg"
+    },
+    {
+      "Identity": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\7da8441f-a4d4-4427-823c-95d0bc65d62e.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/7da8441f-a4d4-4427-823c-95d0bc65d62e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\7da8441f-a4d4-4427-823c-95d0bc65d62e.jpg"
     },
     {
       "Identity": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\a6650a2c-6929-4cce-8c0e-5376cff5f03d.jpg",
