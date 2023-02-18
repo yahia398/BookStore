@@ -12313,7 +12313,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Perry Shop\\.nuget\\packages\\": {}
+    "C:\\Users\\Yahia Ahmed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12321,11 +12321,11 @@
       "projectUniqueName": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
       "projectName": "BulkyBookWeb",
       "projectPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
-      "packagesPath": "C:\\Users\\Perry Shop\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Yahia Ahmed\\.nuget\\packages\\",
       "outputPath": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Perry Shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yahia Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12404,7 +12404,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

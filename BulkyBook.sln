@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyBookWeb", "BulkyBookWeb\BulkyBookWeb.csproj", "{63091427-1392-4F24-9D89-BCFD76466EEC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20F63533-0BF8-44E8-A1FC-45CDA3365A78} = {20F63533-0BF8-44E8-A1FC-45CDA3365A78}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyBook.Models", "BulkyBook.Models\BulkyBook.Models.csproj", "{20F63533-0BF8-44E8-A1FC-45CDA3365A78}"
 EndProject

@@ -1176,3 +1176,4 @@ G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBookWeb\obj\Debug\net7.0\ref
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBookWeb\obj\Debug\net7.0\BulkyBookWeb.pdb
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBookWeb\obj\Debug\net7.0\BulkyBookWeb.genruntimeconfig.cache
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBookWeb\obj\Debug\net7.0\ref\BulkyBookWeb.dll
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBookWeb\bin\Debug\net7.0\Stripe.net.dll
