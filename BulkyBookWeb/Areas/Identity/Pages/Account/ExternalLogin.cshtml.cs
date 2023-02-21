@@ -17,6 +17,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using BulkyBook.Models;
 
 namespace BulkyBookWeb.Areas.Identity.Pages.Account
 {
@@ -84,6 +85,16 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             [Required]
             [EmailAddress]
             public string Email { get; set; }
+            [Required]
+            public string Name { get; set; }
+            [Display(Name = "Street Address")]
+            public string StreetAddress { get; set; }
+            public string City { get; set; }
+            public string State { get; set; }
+            [Display(Name = "Postal Code")]
+            public string PostalCode { get; set; }
+            [Display(Name = "Phone Number")]
+            public string PhoneNumber { get; set; }
         }
         
         public IActionResult OnGet() => RedirectToPage("./Login");
@@ -131,7 +142,12 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
                 {
                     Input = new InputModel
                     {
-                        Email = info.Principal.FindFirstValue(ClaimTypes.Email)
+                        Email = info.Principal.FindFirstValue(ClaimTypes.Email),
+                        Name = info.Principal.FindFirstValue(ClaimTypes.Name),
+                        StreetAddress = info.Principal.FindFirstValue(ClaimTypes.StreetAddress),
+                        PhoneNumber = info.Principal.FindFirstValue(ClaimTypes.MobilePhone),
+                        State = info.Principal.FindFirstValue(ClaimTypes.Country),
+                        PostalCode = info.Principal.FindFirstValue(ClaimTypes.PostalCode)
                     };
                 }
                 return Page();
@@ -155,7 +171,12 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-
+                user.City = Input.City;
+                user.State = Input.State;
+                user.PhoneNumber = Input.PhoneNumber;
+                user.Name = Input.Name;
+                user.PostalCode = Input.PostalCode;
+                user.StreetAddress = Input.StreetAddress;
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
@@ -197,11 +218,11 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser()
+        private AppUser CreateUser()
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return Activator.CreateInstance<AppUser>();
             }
             catch
             {

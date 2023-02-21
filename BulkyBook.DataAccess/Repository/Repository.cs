@@ -25,9 +25,17 @@ namespace BulkyBook.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? predicate = null, string? includeProperties = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? predicate = null, string? includeProperties = null, bool tracked = true)
         {
-			IQueryable<T> query = dbSet;
+			IQueryable<T> query;
+            if (tracked)
+            {
+                query = dbSet;
+            }
+            else
+            {
+                query = dbSet.AsNoTracking();
+            }
             if(predicate != null)
             {
 				query = query.Where(predicate);
@@ -42,9 +50,21 @@ namespace BulkyBook.DataAccess.Repository
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> predicate, string? includeProperties = null)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> predicate, string? includeProperties = null, bool tracked = true)
         {
-            IQueryable<T> query = dbSet.Where(predicate);
+            IQueryable<T> query;
+
+            if (tracked)
+            {
+                query = dbSet;
+            }
+            else
+            {
+                query = dbSet.AsNoTracking();
+            }
+
+            query = query.Where(predicate);
+
             if (includeProperties != null)
             {
                 foreach (var includeProp in includeProperties.Split(',', StringSplitOptions.RemoveEmptyEntries))
@@ -52,6 +72,7 @@ namespace BulkyBook.DataAccess.Repository
                     query = query.Include(includeProp);
                 }
             }
+
             return query.FirstOrDefault();
         }
 

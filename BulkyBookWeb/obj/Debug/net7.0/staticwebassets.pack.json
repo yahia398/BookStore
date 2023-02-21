@@ -17,8 +17,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\png-transparent-e-commerce-online-shopping-ui-money-success-payment-basic-e-commerce-line-color-icon.png",
-      "PackagePath": "staticwebassets\\images\\png-transparent-e-commerce-online-shopping-ui-money-success-payment-basic-e-commerce-line-color-icon.png"
+      "Id": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\payment-done.png",
+      "PackagePath": "staticwebassets\\images\\payment-done.png"
     },
     {
       "Id": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\00a2d920-7a07-4e35-98bc-369ae962dc9c.jpg",
@@ -59,6 +59,10 @@
     {
       "Id": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\company.js",
       "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
     },
     {
       "Id": "G:\\DotNET Projects\\ASP.NET\\BulkyBook\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\product.js",

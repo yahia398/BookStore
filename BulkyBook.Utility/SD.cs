@@ -29,8 +29,6 @@ namespace BulkyBook.Utility
 
 		public const string OrderStatusCancelled = "Cancelled";   // The Order is cancelled
 
-		public const string OrderStatusRefunded = "Refunded";     // The order is refunded
-
 
 		// Payment Status
 		public const string PaymentStatusPending = "Pending";                            // Initial Status
@@ -41,5 +39,9 @@ namespace BulkyBook.Utility
 
 		public const string PaymentStatusRejected = "Rejected";                          // it the payment has been rejected
 
-	}
+        public const string PaymentStatusRefunded = "Refunded";                          // The order is refunded
+
+		// Session
+		public const string SessionCart = "SessionShoppingCart";
+    }
 }

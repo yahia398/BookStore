@@ -624,3 +624,5 @@ G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\ne
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\net7.0\BulkyBook.DataAccess.pdb
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\net7.0\BulkyBook.DataAccess.genruntimeconfig.cache
 G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\net7.0\ref\BulkyBook.DataAccess.dll
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\net7.0\BulkyBook.Utility.dll
+G:\DotNET Projects\ASP.NET\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\net7.0\BulkyBook.Utility.pdb
